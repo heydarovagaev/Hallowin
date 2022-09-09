@@ -1,0 +1,129 @@
+html, body {
+    height:100%;
+}
+body {
+    font-family: "Oswald" , sans-serif;
+    font-size: 18px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1 {
+    color: #fff ;
+    font-size: 64px; 
+    text-transform: uppercase;
+    max-width: 849px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+h1 + p{
+    color: #fff;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 106px;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wrapper-gray{
+background-color: #F7F7F7;
+}
+.bg {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+    position: relative;
+    z-index: -1;
+}
+.title {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: 0;
+}
+.stat {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: -150px auto 0;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+.stat-item h2 {
+    font-size: 72px;
+    color: #F7654A;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+.stat-item h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+.stat-item p {
+    color: #999999;
+    margin-top: 0;
+}
+.box-party {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 56px;
+    margin-bottom: 85px;
+    }
+.box-party > div{
+    flex-basis: 31.5%;
+    max-width: 31.5%;
+}
+.box-party img {
+    width: 100%;
+}
+.box-party h3 {
+    position: relative;
+    padding-top: 28px;
+    margin-top: 43px;
+    letter-spacing: 1.4px;
+}
+.box-party h3::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color: #F7654A;  
+}
+.contact {
+    background-color: #F7654A;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+.box-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-contact h3{
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.box-contact p{
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
